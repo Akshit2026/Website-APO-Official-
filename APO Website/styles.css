@@ -1,3 +1,7 @@
+.random{
+color:#0b1f3b;
+}
+
 html {
 scroll-behavior:smooth;
 }
@@ -8,11 +12,9 @@ padding-left:10px;
 font-size:500px;
 }
 
-
 .landing {
 background-color: white;
 }
-
 
 .logo-image {
 display:flex;
@@ -22,6 +24,8 @@ justify-content:center;
 
 body {
 background-color:#FAF9F6;
+background-color:white;
+
 }
 
 .nav-bar {
@@ -34,50 +38,12 @@ color:black;
 text-align:center;
 }
 
-#abt {
-text-align:center;
-font-size:40px;
+#Event-heading {
+font-size:35px;
 }
 
-#des {
-text-align:center;
+#Event-Details {
 font-size:25px;
-font-family:lato;
-margin-top:10px;
-margin-bottom:10px;
-padding:20px;
-line-height:50px;
-}
-
-#mission {
-font-size:40px;
-font-family:Montserrat;
-line-height:40px;
-}
-
-#mis-text {
-text-align:center;
-font-size:25px;
-padding-left:10px;
-line-height:50px;
-margin-bottom:20px;
-}
-
-#mand {
-font-size:30px;
-line-height:40px;
-font-family:Montserrat;
-}
-
-#mandate-text {
-font-family:lato;
-font-size:20px;
-line-height:40px;
-}
-
-#head-text {
-text-align:center;
-font-size:30px;
 }
 
 #About {
@@ -85,20 +51,61 @@ background-color: #0b1f3b;
 color:white;
 padding-left: 200px;
 padding-right:200px;
-padding: bottom 2px;
+}
+
+#abt{
+text-align:center;
+font-size:50px;
+padding-bottom:5px;
+}
+
+#abt-des {
+text-align:center;
+font-size:25px;
+margin-top:10px;
+line-height:50px;
+margin-bottom:50px;
+padding-bottom:20px;
 }
 
 #Our_Mission {
-background-color: #0b1f3b;
 color:white;
-padding-left: 200px;
-padding-right:200px;
-padding-bottom: 150px;;
+padding-bottom:10px;
 text-align:center;
 }
 
+#mission-heading {
+font-size:50px;
+line-height:40px;
+padding-bottom:10px;
+}
+
+#mis-text {
+text-align:center;
+font-size:25px;
+line-height:50px;
+margin-bottom:50px;
+padding-bottom:20px;
+}
+
+#vision-head {
+font-size:50px;
+line-height:40px;
+padding-bottom:10px;
+}
+
+#vision-text {
+text-align:center;
+font-size:25px;
+line-height:50px;
+margin-bottom:50px;
+padding-bottom:20px;
+}
+
+
 #head-text {
-font-size:3rem;
+text-align:center;
+font-size:30px;
 }
 
 #subheading-schedule {
@@ -212,43 +219,41 @@ padding-bottom:30px;
 #org-team{
 text-align:Center;
 Font-size:40px;
+margin-bottom:100px;
 }
 
-#Tournament-Director,#Chief-Adjudicator,#Tabber,#equity-officer,.ndb-adjudicator,.adjudicator,.logistics-team{
-border-radius:80%;
-height:300px;
-object-fit: cover
+#Tournament-Director,#Supervisor,#Chief-Adjudicator,#Bona-rep,#Tabber,#equity-officer,.ndb-adjudicator,.adjudicator,.logistics-team{
+border-radius:100%;
+height:250px;
+width:250px;
+object-fit: cover;
 }
 
 #Organising_team {
 display:grid; 
 grid-template-columns: repeat(4,1fr);
-gap:50px;
+padding-left:100px;
+padding-right:100px;
+gap:80px;
 }
 
-.team-member-director {
-display:grid; 
-grid-column:1/5;
+#org-bot-text {
+text-align:center;
+margin-top:100px;
+font-size:25px;
+padding-left:200px;
+padding-right:200px;
+
 }
 
+.role,.name,.prof-role{
+text-align:center;
 
-.team-member-ca{
-display:grid; 
-grid-column:1/2;
-}
-
-.team-member-eq{
-display:grid; 
-grid-column:3/4;
-}
-
-.team-member-ndb{
-display:grid; 
-grid-column:4/5;
 }
 
 
-#Register{
+
+#Registration{
 background-color:white;
 }
 
